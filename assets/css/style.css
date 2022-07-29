@@ -52,7 +52,7 @@ body {
     position: relative;
     height: 230px;
     margin-bottom: 35px;
-    border-top-left-radius: 14px;   
+    border-top-left-radius: 14px;
     border-top-right-radius: 14px;
 }
 
@@ -102,12 +102,24 @@ body {
     font-weight: 700;
     border-bottom-left-radius: 14px;
     border-bottom-right-radius: 14px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
 }
 
 .clash-card__unit-stats .one-third {
+    display: flex;
+    flex-flow: column;
     width: 33%;
+    /* eu setei essa altura para igualar o tamanho das 3 cartas, pois a ultima era menor */
+    height: 6.2rem;
+    border-radius: 14px;
     float: left;
-    padding: 20px 15px;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px 15px; */
+    padding: 15px 4px;
+    transition: all 0.3s linear;
 }
 .clash-card__unit-stats sup {
     position: absolute;
