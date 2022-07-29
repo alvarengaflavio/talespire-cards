@@ -57,7 +57,7 @@ body {
 }
 
 .clash-card__image--barbarian {
-    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg');
+    background: url('../images/card-bg-barbarian.jpg');
 }
 .clash-card__image--barbarian img {
     width: 300px;
@@ -124,6 +124,7 @@ body {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 12px;
+    line-height: 14px;
 }
 .clash-card__unit-stats .no-border {
     border-right: none;
